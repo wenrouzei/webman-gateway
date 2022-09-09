@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10a4a4e07cbf289bdf988b8c6eb0622e",
+    "content-hash": "36b210c5c0adea09a91c2237ee22c163",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -260,6 +260,87 @@
                 "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
             "time": "2021-05-03T11:20:27+00:00"
+        },
+        {
+            "name": "webman/gateway-worker",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webman-php/gateway-worker.git",
+                "reference": "8b892b76fb0d949e5247aecc9e40dbefcb44ee63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webman-php/gateway-worker/zipball/8b892b76fb0d949e5247aecc9e40dbefcb44ee63",
+                "reference": "8b892b76fb0d949e5247aecc9e40dbefcb44ee63",
+                "shasum": ""
+            },
+            "require": {
+                "workerman/gateway-worker": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Webman\\GatewayWorker\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/webman-php/gateway-worker/issues",
+                "source": "https://github.com/webman-php/gateway-worker/tree/v1.0.3"
+            },
+            "time": "2022-08-24T09:24:47+00:00"
+        },
+        {
+            "name": "workerman/gateway-worker",
+            "version": "v3.0.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/GatewayWorker.git",
+                "reference": "72fe2fb4f72ddcf54ae057f409ec8dc8e43039e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/GatewayWorker/zipball/72fe2fb4f72ddcf54ae057f409ec8dc8e43039e3",
+                "reference": "72fe2fb4f72ddcf54ae057f409ec8dc8e43039e3",
+                "shasum": ""
+            },
+            "require": {
+                "workerman/workerman": "^4.0.30"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GatewayWorker\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "communication",
+                "distributed"
+            ],
+            "support": {
+                "issues": "https://github.com/walkor/GatewayWorker/issues",
+                "source": "https://github.com/walkor/GatewayWorker/tree/v3.0.23"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/walkor",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/walkor",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2022-08-24T08:55:03+00:00"
         },
         {
             "name": "workerman/webman-framework",
